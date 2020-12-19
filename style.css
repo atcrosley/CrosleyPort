@@ -1,4 +1,4 @@
-/*TEST*/
+
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@300&display=swap");
 
 header {
@@ -55,11 +55,12 @@ h5 {
   /* border: 3px solid red; */
 }
 
-.profile {
-  border: 3px solid;
-  height: 10em;
+
+
+.profilePic{
   width: 10em;
-  border-radius: 50%;
+  height: 10em;
+  border-radius:50%;
 }
 .skills {
   margin-top: 2em;
