@@ -1,0 +1,149 @@
+/*TEST*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@300&display=swap");
+
+header {
+  background-image: url(../assets/HomeScreen.jpg);
+  background-size: cover;
+}
+header,
+section,
+p,
+h5 {
+  overflow: hidden;
+  font-family: montserrat;
+  color: black;
+}
+
+.navbar {
+  background: rgb(131, 207, 226, 0.6);
+}
+
+#facts {
+  margin-top: 2em;
+}
+
+#aboutMeRow {
+  /* border: 10px solid red; */
+  margin: 5em;
+}
+#aboutMe {
+  justify-content: flex-end;
+}
+
+#aboutMeHeader {
+  /* border: 3px solid red; */
+  font-size: 3em;
+  margin-right: 1em;
+  transform: rotate(270deg);
+  align-self: center;
+  font-weight: 1000;
+  padding-top: 5em;
+}
+
+#aboutMeText {
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding-top: 2em;  */
+}
+#name {
+  weight: 700;
+}
+#aboutMeText:hover {
+  transform: translateY(-1rem);
+}
+
+.factSheet {
+  /* border: 3px solid red; */
+}
+
+.profile {
+  border: 3px solid;
+  height: 10em;
+  width: 10em;
+  border-radius: 50%;
+}
+.skills {
+  margin-top: 2em;
+  margin-bottom: 10em;
+}
+.section-2 {
+  margin-top: 6em;
+}
+
+.rect {
+  margin-top: 1em;
+  margin-left: 2em;
+}
+
+.card {
+  height: 20em;
+  width: 20em;
+  margin: 2em;
+  transition: all 0.3s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.25);
+}
+
+#page-1-Content {
+  /* border: 3px solid red; */
+  padding-top: 10em;
+}
+
+#section-3 {
+  margin-top: 20em;
+}
+
+/* focus here */
+/* Style inputs with type="text", select elements and textareas */
+input[type="text"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  /* border: 1px solid #ccc; Gray border */
+  /* border-radius: 4px; Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type="submit"]:hover {
+  background-color: blue;
+}
+/* Add a background color and some padding around the form */
+#formPage {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.card-text {
+  margin: 5px;
+}
+
+li {
+  margin-bottom: 3px;
+}
+
+.btn:hover {
+  box-shadow: 4px 4px 0 #afcef2;
+}
+.btn:active {
+  box-shadow: 0 0 0 #afcef2;
+}
+.btn {
+  background: #edf4fa;
+  border: 1px solid rgb(0, 0, 0, 0.1);
+  font: black;
+}
