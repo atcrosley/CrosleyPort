@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@300&display=swap");
 
 header {
-  background-image: url(assets/HomeScreen.jpg);
+  background: url(assets/HomeScreen.jpg);
   background-size: cover;
 }
 header,
